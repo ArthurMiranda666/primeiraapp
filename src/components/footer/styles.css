@@ -1,0 +1,42 @@
+
+
+footer {
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+.footer-navigationdois {
+    display: none;
+}
+
+.footer-listdois {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media(max-width:768px) {
+    .footer-navigationdois {
+        display: block;
+    }
+    .footer-listdois {
+        display: block;
+    }
+
+    
+nav {
+ display: block;
+}
+
+
+
+
+
+}

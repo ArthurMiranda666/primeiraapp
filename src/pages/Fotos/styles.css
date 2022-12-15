@@ -1,0 +1,83 @@
+* {
+    background-color: black;
+    border-radius: 10px;
+    border-top: 10px;
+    border-left: 10px;
+}
+
+
+#Image {
+    background-image: url('https://i.pinimg.com/736x/d7/d6/c9/d7d6c938df418d0e4952e13bf77fb966.jpg');
+    width: 48%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    float:left
+    
+    
+    
+
+}
+
+
+
+#Imagedois {
+    background-image: url('https://nerdverso.net/content/images/2022/01/membros-akatsuki.jpg');
+    width: 50%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    float: right
+    
+}
+
+
+#Imagetres {
+    background-image: url('https://hqbr.com.br/wp-content/uploads/2021/03/akatsuki.png');
+    width: 48%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    float:left;
+}
+
+#Imagefinal {
+    background-image: url('https://www.einerd.com.br/wp-content/uploads/2017/03/Akatsuki.png.webp');
+    width: 50%;
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer;
+    transition: 3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    float:right;
+    
+}
